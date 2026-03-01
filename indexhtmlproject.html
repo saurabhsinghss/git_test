@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Welcome to HR employe portal</title>
+
+
+    <style>
+        body{
+            background-color:rgb(100, 152, 186);
+        }
+        header{
+            background-color:rgb(126, 220, 126);
+            color:aliceblue;
+            text-align: center;
+        }
+        .navitem{
+            display: inline;
+            padding:20px;
+        }
+        .navitem a{
+            color:aliceblue;
+        }
+        .registerform{
+         width:max-content;
+         margin-left: auto;
+         margin-right: auto;     
+        }
+        .employeetable{
+            text-align: center;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width:100%;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid blue;
+            padding:8px;
+        }
+        .contact{
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+            background-color: rgb(10, 98, 175);
+        }
+    </style>
+
+</head>
+<body>
+ <header>
+    <h1>Welcome to company HR Portal</h1>
+    <nav>
+        <ul>
+            <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+            <li class="navitem"><a href="#employee-directory">Employee Directory</a></li>
+            <li class="navitem"><a href="#contact-Us">contact us</a></li>
+        </ul>
+    </nav>
+ </header>
+ <image src="./image3.jpg" style="width: 100; "></image>
+ <section id="employee-registration" class="registerform">
+    <h2>Employee registration Form</h2>
+    <p>Fill below form for employee registration</p>
+    <form>
+    <label for="name">Enter your full name:</label>
+    <input type="text"  id="name"><br><br>
+    
+    <label for="dob">Enter your DOB: </label>
+    <input type="date"  id="dob"><br><br>
+
+    <label for="email">Enter your email:</label>
+    <input type="email"  id="email"><br><br>
+
+    <label for="password">Enter your password: </label>
+    <input type="password"  id="password"><br><br>
+
+    <label for="age">Enter your age: </label>
+    <input type="number" id="number"><br><br>
+
+    <label for="role">Enter your role: </label>
+    <select>
+        <option>Software engineer</option>
+        <option>Product manager</option>
+        <option>web devloper</option>
+        <option>HR representative</option>
+    </select><br><br>
+
+    <label for="joining">Enter your date of joining: </label>
+    <input type="date"  id="joining"><br><br>
+
+    <input type="submit"><br><br>
+        
+    </form>
+ </section>
+ 
+ <section id="employee-directory" class="employeetable">
+
+    <h2>Employee directory</h2>
+    <p>List of all registered employee</p>
+    <table>
+        <tr>
+        <th>Employee name</th>
+        <th>Employee ID</th>
+        <th>Employee role</th>
+            
+        </tr>
+        <tr>
+            <td>SAURABH SINGH</td>
+            <td>989</td>
+            <td>web devloper</td>
+        </tr>
+        <tr>
+        <td>RAJAN GUPTA</td>
+            <td>987</td>
+            <td>App devloper</td>
+            </tr>
+       <tr>
+        <td>SWATI SINGH</td>
+            <td>988</td>
+            <td>software engineer</td>
+       </tr>
+       <tr>
+        <td>SWETA GUPTA</td>
+            <td>984</td>
+            <td>produt manager</td>
+       </tr>
+
+    </table>
+ </section>
+
+  <section id="contact-Us" class="contact">
+   <h2>Contact Us</h2> 
+   <p>You can contact us at Hrcompany@gmail.com or visit office by 9am - 6pm</p>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.5197492978364!2d88.4597654750901!3d22.967907479212048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8956af61d840d%3A0x6df29b70083dd6c1!2sA-9%20Square%20Park!5e0!3m2!1sen!2sin!4v1702794957342!5m2!1sen!2sin" width="400"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </section>
+  <footer>
+    <p>&copy;2023 company name</p>
+  </footer>
+
+</body>
+</html>
